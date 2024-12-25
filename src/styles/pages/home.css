@@ -3,12 +3,15 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkgray;
-  }
-  li {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    float: left;
+    justify-content: space-between;
+  }
+  li {
+    padding: 8px;
   }
   a {
     display: block;
@@ -17,4 +20,8 @@
   li a:hover {
     background-color: #dddddd;
   }
+}
+
+.hmbgrBtn {
+  border-radius: 5px;
 }
