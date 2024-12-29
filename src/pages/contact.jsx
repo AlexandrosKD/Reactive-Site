@@ -1,10 +1,10 @@
 import RootLayout from "../layouts/rootLayouts";
 import React from "react";
 
-export default function Home() {
+export default function Contact() {
   return (
     <RootLayout>
-      <p>Homer Simpson</p>
+      <p>Call Me, Maybe?</p>
     </RootLayout>
   );
 }
