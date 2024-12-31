@@ -1,27 +1,15 @@
-.taskbar {
-  ul {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: cornflowerblue;
-    border-radius: 10px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  li {
-    padding: 8px;
-  }
-  a {
-    display: block;
-    padding: 10px;
-  }
-  li a:hover {
-    background-color: #dddddd;
-  }
+.introduce {
+  padding: 1%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  display: flexbox;
+  margin: auto;
 }
 
-.hmbgrBtn {
-  border-radius: 5px;
+.introduceParagraph {
+  text-align: left;
+  padding-left: 15%;
+  font-size: 17px;
+  font-weight: normal;
 }
